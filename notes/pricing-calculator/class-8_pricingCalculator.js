@@ -12,3 +12,5 @@ function calculateTotal() {
     const totalPrice = (priceInput.value * quantityInput.value).toFixed(2);
     totalDisplay.innerText = "$" + totalPrice
 }
+
+calculateTotal()
