@@ -1,0 +1,30 @@
+.accordion-container {
+	display: flex;
+	flex-direction: column;
+	width: clamp(250px, 30%, 500px);
+	margin: 1em auto;
+}
+
+details {
+	width: 120%;
+	text-align: left;
+	margin: 1em 0;
+	padding: 1em 2em;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+details[open] {
+	background-color: #f1f5f9;
+}
+
+summary {
+	color: #075985;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+details p {
+	font-size: 1.5rem;
+	color: #769ad5;
+}
